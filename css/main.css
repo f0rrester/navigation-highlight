@@ -6,19 +6,23 @@ html {
   box-sizing: inherit;
   font-family: georgia, sans-serif;
   line-height: 1.5;
-  background-color: #2f2d13;
+  background-color: #fff;
 }
 
 header {
-
+  background-color: #ffe500;
 }
 
 footer {
-
+  background-color: #ffe500;
 }
 
 h1 {
-
+  color: #cc1465;
+  background-color: inherit;
+  text-align: center;
+  font-family: 'Sigmar One', cursive;
+  margin: 0
 }
 
 nav {
@@ -26,7 +30,15 @@ nav {
 }
 
 li {
+  list-style: none;
+  text-decoration: none;
+  background-color: #inherit;
+  display: inline-block;
+  text-align: center;
+}
 
+a {
+  background-color: #2f2d13;
 }
 
 h2 {
@@ -38,5 +50,5 @@ p {
 }
 
 footer > p {
-
+  background-color: inherit;
 }
