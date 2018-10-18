@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  font-family: georgia, sans-serif;
+  line-height: 1.5;
+  background-color: #2f2d13;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+h1 {
+
+}
+
+nav {
+
+}
+
+li {
+
+}
+
+h2 {
+
+}
+
+p {
+
+}
+
+footer > p {
+
+}
