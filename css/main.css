@@ -9,6 +9,10 @@ html {
   background-color: #fff;
 }
 
+body {
+  display:block;
+}
+
 header {
   background-color: #ffe500;
 }
@@ -36,6 +40,7 @@ ul {
   text-decoration: inherit;
   background-color: inherit;
   text-align: center;
+  padding: 0;
 }
 
 li {
@@ -45,7 +50,7 @@ li {
   color: white;
   display: inline-block;
   text-align: center;
-  padding: .75em;
+  margin-bottom: .3em;
   border-radius: 4px;
 }
 
@@ -58,20 +63,22 @@ a {
   color: white;
   background-color: inherit;
   font-size: 1.125rem;
+  padding: .5em;
+  border-radius: 4px;
 }
 
-.btn:hover {
+a:hover {
   background-color: #cc1465;
 }
 
 .current {
-  background-color: #cc1465;
+  background-color: #b20953;
 }
 
 h2 {
   color: #b20953;
   background-color: inherit;
-  text-align: center;
+  text-align: left;
   font-family: 'Sigmar One', cursive;
   margin: 0;
   font-size: 1.875rem;
