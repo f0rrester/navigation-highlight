@@ -56,6 +56,7 @@ li {
   margin-bottom: .3em;
   border-radius: 4px;
   font-size: 1.125rem;
+  font-family: Georgia, sans-serif;
 }
 
 a {
@@ -84,6 +85,7 @@ h2 {
   background-color: inherit;
   text-align: left;
   font-family: "Sigmar One", cursive;
+  padding: 0 .75;
   margin: .3em;
   font-size: 1.875rem;
 }
@@ -93,13 +95,15 @@ img {
   width: 100%;
   text-align: center;
   margin: .3em;
+  padding: .5em;
 }
 
 p {
   color: #2f2d13;
   text-align: left;
   font-family: georgia, serif;
-  margin: .5em;
+  margin: .3em;
+  padding: .75em;
   font-size: 1rem;
 }
 
@@ -108,5 +112,6 @@ footer > p {
   background-color: inherit;
   font-size: .75rem;
   text-align: center;
-  padding: .5em;
+  padding: .75em;
+  margin: .3em;
 }
