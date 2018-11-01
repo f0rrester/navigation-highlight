@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  display:block;
+  display: block;
+  margin: 0;
 }
 
 header {
@@ -25,10 +26,10 @@ h1 {
   color: #b20953;
   background-color: inherit;
   text-align: center;
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   margin: 0;
   font-size: 3rem;
-  padding:0 .75em;
+  padding: 0 .75em;
 }
 
 nav {
@@ -79,15 +80,15 @@ h2 {
   color: #b20953;
   background-color: inherit;
   text-align: left;
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   margin: 0;
   font-size: 1.875rem;
 }
 
 img {
-  display:block;
+  display: block;
   width: 100%;
-  text-align:center;
+  text-align: center;
 }
 
 p {
